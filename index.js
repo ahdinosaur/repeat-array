@@ -6,12 +6,9 @@ module.exports = function (input, n) {
   // for each of n iterations
   for (var i = 0; i < n; i++) {
     
-    // for each element in input,
+    // extend our result with input array
     input.forEach(function (element) {
-      
-      // extend our result with input array
       result.push(element);
-
     })
 
   }
