@@ -1,7 +1,7 @@
 {
   "name": "repeat-array",
   "version": "0.1.0",
-  "description": "repeats an Array n times",
+  "description": "repeats an input array or function n times into a new array",
   "main": "index.js",
   "scripts": {
     "test": "mocha --recursive test"
@@ -12,6 +12,7 @@
   },
   "keywords": [
     "array",
+    "function",
     "repeat",
     "multiply",
     "times"
